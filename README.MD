@@ -1,6 +1,6 @@
 # shortURL
 
-Hobby project written in Go that basically generates a short-ID for a given URL. Uses redis to store and retrieve data.
+Hobby project written in Go that generates a short-ID for a given URL. Uses redis to store and retrieve data.
 
 # Usage
 - Needs a Redis server running on port 6379. If you have Docker installed, run `docker pull redis && docker run -p 6379:6379 redis`
